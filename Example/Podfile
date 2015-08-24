@@ -3,13 +3,11 @@ use_frameworks!
 
 target 'BlurSpinner_Example', :exclusive => true do
   pod "BlurSpinner", :path => "../"
+  pod 'FXBlurView', '~> 1.6'
 end
 
 target 'BlurSpinner_Tests', :exclusive => true do
   pod "BlurSpinner", :path => "../"
-
-  pod 'Quick', '~> 0.3.1'
-  pod 'Nimble'
-  pod 'FBSnapshotTestCase'
-  pod 'Nimble-Snapshots'
+  
+  pod 'FXBlurView', '~> 1.6'
 end

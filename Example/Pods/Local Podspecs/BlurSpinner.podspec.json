@@ -3,15 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of BlurSpinner.",
   "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/BlurSpinner",
+  "homepage": "https://github.com/pujexx/BlurSpinner",
   "license": "MIT",
   "authors": {
     "Puji Rahmadiyanto": "puji.rahmadiyanto@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/BlurSpinner.git",
+    "git": "https://github.com/pujexx/BlurSpinner.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/pujexx",
   "platforms": {
     "ios": "8.0"
   },
@@ -20,6 +21,12 @@
   "resource_bundles": {
     "BlurSpinner": [
       "Pod/Assets/*.png"
+    ]
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "FXBlurView": [
+      "~> 1.6"
     ]
   }
 }

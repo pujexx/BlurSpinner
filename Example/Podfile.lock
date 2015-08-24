@@ -1,29 +1,18 @@
 PODS:
-  - BlurSpinner (0.1.0)
-  - FBSnapshotTestCase (1.8.1)
-  - Nimble (0.4.2)
-  - Nimble-Snapshots (0.4.0):
-    - FBSnapshotTestCase (~> 1.7)
-    - Nimble (~> 0.4)
-    - Quick (~> 0.3)
-  - Quick (0.3.1)
+  - BlurSpinner (0.1.0):
+    - FXBlurView (~> 1.6)
+  - FXBlurView (1.6.3)
 
 DEPENDENCIES:
   - BlurSpinner (from `../`)
-  - FBSnapshotTestCase
-  - Nimble
-  - Nimble-Snapshots
-  - Quick (~> 0.3.1)
+  - FXBlurView (~> 1.6)
 
 EXTERNAL SOURCES:
   BlurSpinner:
     :path: ../
 
 SPEC CHECKSUMS:
-  BlurSpinner: 6f18c855756019d4ad0272fd59a98e0427f5f130
-  FBSnapshotTestCase: 3dc3899168747a0319c5278f5b3445c13a6532dd
-  Nimble: 49b7a7da8919f42823d37c6d68cc6d15a7009f32
-  Nimble-Snapshots: 216ae8c0ea3f4105be1606749fe15d8b2138af40
-  Quick: 824572d3d198d51e52cf4aa722cebf7e59952a35
+  BlurSpinner: 0af4e0de39fc2919337e3abf12f026fd3c8a3d4d
+  FXBlurView: c6d23f3d35af2c6282296a2930f61c6e2c788d01
 
 COCOAPODS: 0.38.2

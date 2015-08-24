@@ -53,15 +53,9 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Pods-BlurSpinner_Tests/BlurSpinner.framework'
-  install_framework 'Pods-BlurSpinner_Tests/FBSnapshotTestCase.framework'
-  install_framework 'Pods-BlurSpinner_Tests/Nimble.framework'
-  install_framework 'Pods-BlurSpinner_Tests/Nimble_Snapshots.framework'
-  install_framework 'Pods-BlurSpinner_Tests/Quick.framework'
+  install_framework 'Pods-BlurSpinner_Tests/FXBlurView.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Pods-BlurSpinner_Tests/BlurSpinner.framework'
-  install_framework 'Pods-BlurSpinner_Tests/FBSnapshotTestCase.framework'
-  install_framework 'Pods-BlurSpinner_Tests/Nimble.framework'
-  install_framework 'Pods-BlurSpinner_Tests/Nimble_Snapshots.framework'
-  install_framework 'Pods-BlurSpinner_Tests/Quick.framework'
+  install_framework 'Pods-BlurSpinner_Tests/FXBlurView.framework'
 fi

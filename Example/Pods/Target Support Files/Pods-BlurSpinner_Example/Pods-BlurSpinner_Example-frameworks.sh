@@ -53,7 +53,9 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Pods-BlurSpinner_Example/BlurSpinner.framework'
+  install_framework 'Pods-BlurSpinner_Example/FXBlurView.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Pods-BlurSpinner_Example/BlurSpinner.framework'
+  install_framework 'Pods-BlurSpinner_Example/FXBlurView.framework'
 fi
