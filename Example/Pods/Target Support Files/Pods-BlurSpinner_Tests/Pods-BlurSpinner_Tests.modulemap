@@ -1,0 +1,6 @@
+framework module Pods_BlurSpinner_Tests {
+  umbrella header "Pods-BlurSpinner_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

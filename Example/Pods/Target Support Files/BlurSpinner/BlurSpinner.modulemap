@@ -1,0 +1,6 @@
+framework module BlurSpinner {
+  umbrella header "BlurSpinner-umbrella.h"
+
+  export *
+  module * { export * }
+}
