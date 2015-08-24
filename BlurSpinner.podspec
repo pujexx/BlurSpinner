@@ -1,4 +1,4 @@
-#
+
 # Be sure to run `pod lib lint BlurSpinner.podspec' to ensure this is a
 # valid spec before submitting.
 #
@@ -35,6 +35,6 @@ Pod::Spec.new do |s|
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   s.dependency 'FXBlurView', '~> 1.6'
 end
